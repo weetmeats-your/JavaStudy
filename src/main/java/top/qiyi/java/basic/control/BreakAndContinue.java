@@ -25,7 +25,7 @@ public class BreakAndContinue {
                     break;
             }
             log.info("I like {}", fruit.get(i));
-           
+
         }
     }
 }
