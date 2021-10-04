@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.DatePicker?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="404.0" prefWidth="888.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.qiyi.java.jfx.ctrl.MainCtrl">
+    <children>
+        <Label layoutX="55.0" layoutY="21.0" text="粉丝验证界面">
+            <font>
+                <Font size="23.0"/>
+            </font>
+        </Label>
+        <Label layoutX="24.0" layoutY="222.0" text="是否打卡:"/>
+        <TextField layoutX="85.0" layoutY="70.0" prefHeight="23.0" prefWidth="124.0" promptText="请输入用户名"/>
+        <ImageView fitHeight="23.0" fitWidth="62.0" layoutX="195.0" layoutY="257.0">
+            <image>
+                <Image url="@../../../../../../../../../下载/00.png"/>
+            </image>
+        </ImageView>
+        <Label layoutX="30.0" layoutY="261.0" text="验证码："/>
+        <Label layoutX="4.0" layoutY="148.0" text="选择你的爱豆："/>
+        <ComboBox layoutX="85.0" layoutY="144.0" prefHeight="23.0" prefWidth="124.0" promptText="王一博"/>
+        <CheckBox layoutX="91.0" layoutY="222.0" mnemonicParsing="false" selected="true" text="是"/>
+        <TextField layoutX="81.0" layoutY="257.0" prefHeight="23.0" prefWidth="106.0" promptText="请输入心动指令"/>
+        <Label layoutX="20.0" layoutY="181.0" text="冲卡日期:"/>
+        <DatePicker layoutX="85.0" layoutY="177.0" prefHeight="23.0" prefWidth="124.0"/>
+        <Button defaultButton="true" layoutX="93.0" layoutY="324.0" mnemonicParsing="false" prefHeight="23.0"
+                prefWidth="63.0" text="确定" textFill="WHITE"/>
+        <Label layoutX="46.0" layoutY="109.0" text="密码:"/>
+        <TextField layoutX="85.0" layoutY="105.0" prefHeight="23.0" prefWidth="124.0" promptText="请输入密码"/>
+        <SplitPane layoutX="262.0" layoutY="5.0" prefHeight="391.0" prefWidth="591.0">
+            <items>
+                <ImageView fitHeight="397.0" fitWidth="623.0" opacity="0.45">
+                    <image>
+                        <Image url="@../../../../../../../../../下载/1690c5d27faaa5b469ce7117357474be.jpeg"/>
+                    </image>
+                </ImageView>
+            </items>
+        </SplitPane>
+        <Label layoutX="34.0" layoutY="74.0" text="用户名:"/>
+    </children>
+</AnchorPane>
