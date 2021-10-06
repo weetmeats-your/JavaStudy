@@ -16,7 +16,7 @@ import java.util.Objects;
 /**
  * 主类
  *
- * @author mqxu
+ * @author qiyi
  * @date 2021/09/30
  */
 public class MusicApp extends Application {

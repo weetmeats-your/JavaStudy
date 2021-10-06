@@ -98,6 +98,7 @@ public class MusicCtrl implements Initializable {
      */
     public void onCloseClicked(MouseEvent event) {
         stage.close();
+        //Stage stage = (Stage) root.getScene().getWindow();
     }
 
     /**
@@ -125,7 +126,7 @@ public class MusicCtrl implements Initializable {
     }
 
     /**
-     * 显示右侧第二个面板
+     * 显示右侧第三个面板
      *
      * @param actionEvent actionEvent
      */

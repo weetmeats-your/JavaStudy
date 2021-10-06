@@ -12,4 +12,7 @@ module com.qiyi.java.jfx {
 
     opens com.qiyi.java.jfx.layout to javafx.fxml;
     exports com.qiyi.java.jfx.layout;
+
+    opens com.qiyi.java.jfx.basic to javafx.fxml;
+    exports com.qiyi.java.jfx.basic;
 }

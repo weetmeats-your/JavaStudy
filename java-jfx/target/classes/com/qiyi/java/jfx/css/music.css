@@ -10,7 +10,7 @@
 }
 
 .top {
-    -fx-background-color: linear-gradient(to bottom, #e7bbdb, #dce5a6);
+    -fx-background-color: linear-gradient(to bottom, #e7bbdb, #ebf1cb);
     -fx-opacity: 0.8;
 }
 
@@ -68,8 +68,7 @@
 }
 
 .container {
-    -fx-background-color: #000;
-    -fx-opacity: 0.2;
+    -fx-opacity: 0.3;
 }
 
 .btn {
