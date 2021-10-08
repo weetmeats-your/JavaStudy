@@ -15,4 +15,7 @@ module com.qiyi.java.jfx {
 
     opens com.qiyi.java.jfx.basic to javafx.fxml;
     exports com.qiyi.java.jfx.basic;
+
+    opens com.qiyi.java.jfx.effect to javafx.fxml;
+    exports com.qiyi.java.jfx.effect;
 }

@@ -35,7 +35,7 @@ public class ColorExample extends Application {
         text.setX(155);
         text.setY(50);
         text.setFill(Color.BEIGE);
-        text.setStrokeWidth(2);
+        text.setStrokeWidth(4);
         text.setStroke(Color.AQUAMARINE);
 
         //Creating a Group object
