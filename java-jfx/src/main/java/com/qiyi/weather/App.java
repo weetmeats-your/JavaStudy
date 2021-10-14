@@ -1,0 +1,32 @@
+package com.qiyi.weather;
+
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+
+import java.io.IOException;
+
+/**
+ * @program：java-jfx
+ * @description:
+ * @author: qiyi
+ * <p>
+ * create: 2021-10-13 19:30
+ **/
+
+public class App extends Application {
+    @Override
+    public void start(Stage stage) throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("fxml/primary.fxml"));
+        Scene scene = new Scene(fxmlLoader.load(), 700, 500);
+        stage.setTitle("Weather APP");
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public static void main(String[] args) {
+        launch();
+    }
+}
+

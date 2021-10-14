@@ -4,6 +4,7 @@ module com.qiyi.java.jfx {
     requires javafx.graphics;
     requires AnimateFX;
     requires javafx.web;
+    requires json.simple;
 
 
     opens com.qiyi.java.jfx.ctrl to javafx.fxml;
@@ -21,4 +22,12 @@ module com.qiyi.java.jfx {
 
     opens com.qiyi.java.jfx.view to javafx.fxml;
     exports com.qiyi.java.jfx.view;
+
+
+    opens com.qiyi.weather to javafx.fxml;
+    exports com.qiyi.weather;
+
+    opens com.qiyi.weather.view to javafx.fxml;
+    exports com.qiyi.weather.view;
+    exports com.qiyi.weather.util;
 }
